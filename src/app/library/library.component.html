@@ -1,0 +1,48 @@
+
+
+
+  <div class="container-fluid  mt-0 pt-0">
+
+    <div class="h-100 w-100">
+
+    <h1 class="text-center"> Online Library</h1>
+
+
+
+    <table class="table mt-0 pt-0 pb-5 mb-5">
+        <thead>
+          <tr class="table-info bg-secondary">
+
+            <th scope="col">id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Pages</th>
+            <th scope="col">Update</th>
+            <th scope="col">Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr *ngFor="let item of books">
+            <th scope="row"></th>
+            <td>{{item.name}}</td>
+            <td>{{item.price}}</td>
+            <td><button type="submit" class="btn btn-success btn-group-toggle"><i class="bi bi-pencil-fill"></i></button></td>
+            <td><button type="submit" class="btn btn-danger btn-group-toggle"><i class="bi bi-trash3-fill"></i></button></td>
+          </tr> -->
+
+
+            <tr *ngFor="let book of books">
+              <th>{{book._id}}</th>
+              <td>{{book.bookName}}</td>
+              <td>{{book.bookPages}}</td>
+              <td> <button>Update</button></td>
+              <td> <button onclick="deleteItem(book._id)">Delete</button></td>
+            </tr>
+
+
+
+        </tbody>
+      </table>
+    </div>
+
+    </div>
+

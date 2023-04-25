@@ -1,0 +1,121 @@
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  /* page content */
+  
+  body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 450px;
+    margin-top: 20;
+    margin-bottom: 20;
+    padding: 20px;
+    height: fit-content;
+    width: fit-content;
+  }
+  
+  .imp {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .imp {
+    padding-block: 30;
+    font-size: 2rem;
+    margin-block: 5vh; 
+    border-radius: 20px;
+    background-image: url(https://th.bing.com/th/id/OIP.aF0h51LnLi5gPstTf7vl7QAAAA?pid=ImgDet&rs=1);
+    font-family:'Times New Roman', Times, serif
+  }
+  .stl{
+    background-color: #0c0813;
+    text-decoration: #0c0813;
+    font-family:'Times New Roman', Times, serif
+  }
+  .impo{
+    padding-block: 5;
+    font-size: 2rem;
+    margin-block: 10; 
+    border-radius: 5px;
+    background-image: url(https://th.bing.com/th/id/OIP.aF0h51LnLi5gPstTf7vl7QAAAA?pid=ImgDet&rs=1);
+    
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
+  }
+  
+  .second { font-size: 3rem; }
+  #one{
+    color: blue;
+    display: inline-block;
+    background-color: #0c0813;
+    padding: 10px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  @media (max-width: 750px) {
+      #background-video { display: none; }
+      body {
+        background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+        background-size: cover;
+      }
+  }
+  
+  main {
+    background-color: lightblue;
+    font-size: 2rem;
+    margin-top: 50vh;
+    padding: 10px;
+    position: relative;
+    font-family:'Times New Roman', Times, serif
+
+  }
+
+
+
+.input-container .close{
+
+    top: 0%;
+    left: 100%;
+   
+}
+  
+#book{
+
+    color:green;
+}
+
+#real{
+
+    color:red;
+}
+
+#do{
+
+    color:tomato;
+
+}
+
+#back{
+color:greenyellow;
+
+}
+.color:hover{
+
+    text-decoration-color: red;
+    text-decoration-style: solid;
+}
